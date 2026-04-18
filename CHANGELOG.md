@@ -14,7 +14,6 @@ Format follows [Keep a Changelog](https://keepachangelog.com/). Versioning follo
 - Last active tracking for org members
 - Deep linking via `tempo://` protocol
 - Local database replica for instant reads in the desktop app
-- Custom domain hosting via Vercel Domains API
 - Virtual scrolling for large task lists
 - Configurable global shortcuts (off by default)
 - Auto-update banner in sidebar
