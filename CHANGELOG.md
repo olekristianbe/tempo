@@ -3,6 +3,27 @@
 All notable changes to Tempo are documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versioning follows [Semantic Versioning](https://semver.org/).
 
+## 1.4.1 — 2026-04-19
+
+### Added
+- Notes encryption at rest — titles and content encrypted with AES-256-GCM
+- **`desktop`** Tray menu redesign — simplified layout with direct access to notes, calendar sync, and settings
+- **`desktop`** New menu bar icon
+- Window titles update per-route for macOS time tracker support (Timing, Rize, ActivityWatch)
+- What's New carousel catches users up on all missed versions, not just the latest
+
+### Fixed
+- Project creation from command palette no longer crashes on edge cases
+- Notes mutation errors are now surfaced instead of silently swallowed
+
+### Improved
+- Team view performance — scoped cache invalidation and memoized components
+- Core queries (statuses, labels, teams, projects) persist between sessions
+- Async query persister eliminates hydration races on startup
+- Notes overlay split into smaller components for better performance and accessibility
+- Smooth editor scrolling with safe-band scroll lock in notes and task descriptions
+- ARIA attributes and keyboard navigation improvements across notes
+
 ## 1.4.0 — 2026-04-11
 
 ### Added
