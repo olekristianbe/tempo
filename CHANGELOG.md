@@ -3,6 +3,27 @@
 All notable changes to Tempo are documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versioning follows [Semantic Versioning](https://semver.org/).
 
+## 1.4.2 — 2026-04-21
+
+### Added
+- Recurring tasks — daily, weekdays, weekly, monthly, or yearly repeat presets
+- Series delete for recurring tasks
+- Customizable task card and row fields, including team and project
+- Drag-to-reorder card fields
+- Shared task pages now render embedded timeline blocks as the same visual Gantt shown in-app
+- **`desktop`** Native app menu with manual update check
+- **`desktop`** Feedback can capture a screenshot automatically and attach up to five screenshots
+
+### Fixed
+- Due date editing no longer crashes on the known `toISOString` edge cases
+- Creating a project now opens the new project reliably after creation
+- Feedback submission flow is more resilient when screenshots or env setup fail
+
+### Improved
+- Faster navigation with persisted cache, hover prefetch, and background refresh on active task views
+- Clearer desktop update UX in the sidebar
+- More consistent popup and modal styling across the app
+
 ## 1.4.1 — 2026-04-19
 
 ### Added
