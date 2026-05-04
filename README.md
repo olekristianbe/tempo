@@ -8,7 +8,7 @@ Most project tools are built for managers. Tempo is built for the people doing t
 
 - **Instant everything** — Optimistic updates, warm cache, prefetching, virtual scrolling. No spinners.
 - **Keyboard-first** — Command palette, global shortcuts, quick-add from anywhere on your Mac.
-- **Google Calendar sync** — Tasks with due dates appear on your calendar. Edit in either place.
+- **Calendar beta** — Plan tasks and Google Calendar events together in week, day, month, and agenda views.
 - **Personal notes** — Floating overlay with rich text, always a shortcut away.
 - **Share anything** — Generate a public link for any task. Revoke it when you're done.
 - **Desktop-native** — Real macOS app with menu bar, deep links, and auto-updates.
@@ -16,10 +16,11 @@ Most project tools are built for managers. Tempo is built for the people doing t
 ## Features
 
 - **Task management** — Table, board, and timeline views with drag-and-drop ordering
+- **Calendar beta** — Week, day, month, and agenda views for planning tasks and events together
 - **Recurring tasks** — Repeat daily, weekly, monthly, or yearly and generate the next occurrence automatically
 - **Teams and projects** — Organize work across teams with customizable statuses and labels
 - **Rich descriptions** — Tiptap editor with slash commands, inline timelines, markdown, and visual shared timelines
-- **Google Calendar** — Two-way sync with configurable event colors and visibility
+- **Google Calendar** — Two-way sync, subscribed calendars, attendee support, Meet links, room booking, and availability lookup
 - **Personal notes** — Raycast-style floating overlay with command-palette switcher
 - **Public sharing** — Revocable read-only URLs for any task
 - **Quick-add** — Global shortcut to capture tasks without switching windows

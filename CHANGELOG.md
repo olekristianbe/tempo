@@ -3,6 +3,25 @@
 All notable changes to Tempo are documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versioning follows [Semantic Versioning](https://semver.org/).
 
+## 1.5.0 — 2026-05-04
+
+### Added
+- Calendar beta with week, day, month, and agenda views
+- Drag tasks onto your calendar to schedule them, move them around, or send them back to unscheduled
+- Full event editing inside Tempo with guests, locations, descriptions, colors, visibility, recurring events, and Google Meet links
+- Multi-calendar Google Calendar support with subscribed calendars shown directly in Tempo
+- Availability tools for teammate free/busy lookup and Workspace room search
+
+### Fixed
+- Google Calendar reconnect flow is now more reliable for existing users after the permissions upgrade
+- Calendar sync preserves all-day and timed events in the intended calendar timezone
+- Scheduling changes refresh more consistently after calendar interactions
+
+### Improved
+- Faster and more reliable Google Calendar syncing in both the browser and desktop app
+- Warmer reloads for calendar and Google Calendar settings data
+- Broader stability improvements across calendar, sync, and event editing flows
+
 ## 1.4.2 — 2026-04-21
 
 ### Added
