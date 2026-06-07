@@ -3,6 +3,31 @@
 All notable changes to Tempo are documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versioning follows [Semantic Versioning](https://semver.org/).
 
+## 1.6.0 — 2026-06-05
+
+### Added
+- Planning workspace with a 13-month rolling timeline for tasks, projects, and early ideas
+- Unscheduled ideas panel with drag-to-schedule and quick planning item creation
+- Add existing tasks or projects to Planning when they need a longer-range view
+- Promote planning-only work into normal tasks or projects when it is ready
+- Subtasks with inline editing, assignees, due dates, drag reordering, and progress counts
+- Scoped label groups for task labels, planning labels, or labels shared across both surfaces
+- Notes previews and full-note search
+
+### Fixed
+- Planning-only work stays out of My Tasks and Google Calendar until promoted
+- Task and project popups in Planning no longer compete with each other in the URL
+- Existing tasks, projects, and labels migrate cleanly with compatible planning defaults
+- Parent task delete/restore keeps subtasks in the correct deleted or restored state
+- Desktop notes flush pending edits before the notes window hides
+
+### Improved
+- Dense planning months stay fast and scroll smoothly
+- Planning works better on smaller desktop and narrow portrait screens
+- Clearer keyboard support, button labels, status text, and empty states across Planning
+- Task detail opens in context-preserving popups from lists, boards, and redirect links
+- Task table sorting, inline title editing, drag overlays, and sticky headers are smoother
+
 ## 1.5.0 — 2026-05-04
 
 ### Added
